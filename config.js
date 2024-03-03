@@ -9,13 +9,13 @@ global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="samsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://Roy:botpassword123@cluster0.8rkuagt.mongodb.net/"
 
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 
 
-global.DATABASE_URI = process.env.DATABASE_URL || ""
+global.DATABASE_URI = process.env.DATABASE_URL || "mongodb+srv://Roy:botpassword123@cluster0.8rkuagt.mongodb.net/"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
